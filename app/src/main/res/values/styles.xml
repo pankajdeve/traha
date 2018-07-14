@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:typeface">serif</item>
+
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/text_topic_search</item>
+        <item name="colorControlActivated">@color/mustard_yellow</item>
+        <item name="colorControlHighlight">@color/mustard_yellow</item>
+    </style>
+
+    <style name="mainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/app_status</item>
+    <item name="colorPrimaryDark">@color/app_status</item>
+    <item name="colorAccent">@color/colorPrimaryDark</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:typeface">serif</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:cursorVisible">true</item>
+    </style>
+</resources>
